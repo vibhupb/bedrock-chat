@@ -190,6 +190,10 @@ const translation: typeof en = {
           name: 'Bedrock Agent',
           description: '設定されたBedrock Agentに質問を送信します。',
         },
+        analyze_data: {
+          name: 'データアナリストアシスタント',
+          description: 'ゲーム業界のデータ、売上トレンド、市場インサイト、地域別パフォーマンスを外部データ分析APIを使用して分析します。',
+        },
         firecrawl: {
           apiKey: 'Firecrawl APIキー',
           maxResults: '最大結果数',
@@ -205,6 +209,10 @@ const translation: typeof en = {
             label: 'Alias ID',
             placeholder: 'Alias IDを入力',
           },
+        },
+        docs_and_training: {
+          name: 'ドキュメント＆トレーニング',
+          description: '外部APIを利用してドキュメントやトレーニング、技術的な質問に回答します。',
         },
       },
     },

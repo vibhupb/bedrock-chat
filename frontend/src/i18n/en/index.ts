@@ -6,7 +6,7 @@ const translation = {
       },
     },
     app: {
-      name: 'Bedrock Chat',
+      name: 'Texas Capital AI Assistant',
       inputMessage: 'How can I Help You?',
       starredBots: 'Starred Bots',
       recentlyUsedBots: 'Recently Used Bots',
@@ -189,6 +189,10 @@ const translation = {
           name: 'Bedrock Agent',
           description: 'Ask a question to the configured Bedrock Agent',
         },
+        analyze_data: {
+          name: 'Financial Analyst Assistant',
+          description: 'Analyze financial and Banking industries data, sales trends, market insights, and regional performance using external data analysis APIs.',
+        },
         firecrawl: {
           apiKey: 'Firecrawl API Key',
           maxResults: 'Maximum Results',
@@ -204,6 +208,10 @@ const translation = {
             label: 'Alias ID',
             placeholder: 'Enter Alias ID',
           },
+        },
+        docs_and_training: {
+          name: 'Docs and Training',
+          description: 'Answer questions about documentation, training, and technical concepts using an external API.',
         },
       },
     },

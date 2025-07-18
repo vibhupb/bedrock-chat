@@ -97,6 +97,14 @@ const translation = {
           name: 'Búsqueda en Internet',
           description: 'Buscar información en internet.',
         },
+        analyze_data: {
+          name: 'Asistente de Análisis de Datos',
+          description: 'Analizar datos de la industria de videojuegos, tendencias de ventas, información de mercado y rendimiento regional usando APIs de análisis de datos externos.',
+        },
+        docs_and_training: {
+          name: 'Documentación y Entrenamiento',
+          description: 'Responde preguntas sobre documentación, entrenamiento y conceptos técnicos usando una API externa.',
+        },
       },
     },
     bot: {
