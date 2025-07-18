@@ -8,10 +8,7 @@ from pydantic import BaseModel, Field
 
 class DataAnalystInput(BaseModel):
     prompt: str = Field(
-        description="The data analysis question or query you want to ask. "
-                   "Examples: 'What is current stock price for provided company in prompt?', "
-                   "'Analyze market trends for banking and financial sector in general', "
-                   "'Analyze 10-Q and 10-K filing for provided company in prompt'"
+        description="***************"
     )
     api_endpoint: str = Field(
         
