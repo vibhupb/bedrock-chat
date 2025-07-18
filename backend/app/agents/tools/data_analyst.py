@@ -14,8 +14,8 @@ class DataAnalystInput(BaseModel):
                    "'Analyze 10-Q and 10-K filing for provided company in prompt'"
     )
     api_endpoint: str = Field(
-        #default="http://CdkStr-Agent-DuMCKmPGRCa3-1106354629.us-east-1.elb.amazonaws.com/assistant-streaming",
-        default="http://multi-mcp-alb-1722237086.us-east-1.elb.amazonaws.com/financial-analyst/analyze", 
+        
+        default="http://***********", 
         description="The API endpoint for data analysis (optional, uses default if not provided)"
     )
 
