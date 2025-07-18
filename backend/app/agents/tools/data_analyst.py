@@ -109,7 +109,7 @@ def analyze_data(
 
 data_analyst_tool = AgentTool(
     name="analyze_data",
-    description="Analyze data using an external data analysis API. This tool can answer questions about current financial news received from Yahoo Finance, CNBC, Federal Reserve, White House, WSJ etc., data, market trends, regional analysis, genre performance, and other data-driven insights. Perfect for queries about banking and financial sector news, market analysis, sales trends, and comparative data analysis.",
+    description="*************************",
     args_schema=DataAnalystInput,
     function=analyze_data,
 )
