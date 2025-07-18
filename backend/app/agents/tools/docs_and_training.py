@@ -7,11 +7,10 @@ from pydantic import BaseModel, Field
 
 class DocsAndTrainingInput(BaseModel):
     prompt: str = Field(
-        description="The documentation or training question you want to ask. "
-                   "Examples: 'What is AWS CDK?', 'How do I use S3?', 'Explain IAM roles.'"
+        description="*************************'"
     )
     api_endpoint: str = Field(
-        default="http://multi-mcp-alb-816647011.us-east-1.elb.amazonaws.com/strands-agent",
+        default="*****************************",
         description="The API endpoint for docs and training (optional, uses default if not provided)"
     )
 
